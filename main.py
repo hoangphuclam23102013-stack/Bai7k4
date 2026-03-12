@@ -9,7 +9,7 @@ Tinh_cach = {
     'con su tu': 'Ban co ve kha manh me, thich dan dau',
     'con ngua': 'Ban yeu thich su tu do',
     'thien nga':'Ban co ve ngoai kha la thu hut!'}
-cols = st.column(len(Tinh_cach))
+cols = st.columns(len(Tinh_cach))
 chon = None
 for i, (con_vat, tinh_cach) in enumerate(Tinh_cach.items()):
     with cols[i]:
